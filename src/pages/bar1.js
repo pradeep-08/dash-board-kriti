@@ -8,26 +8,31 @@ class Bar1 extends React.Component {
     this.state = {
       series: [
         {
-          data: [64, 55, 41, 67, 22, 43, 21, 49],
+          name: "Location-1",
+          data: [64, 55, 41, 7, 12, 43, 21, 49],
         },
         {
-          data: [100, 23, 20, 8, 13, 27, 33, 12],
+          name: "Location-2",
+          data: [10, 23, 20, 8, 30, 27, 33, 12],
         },
       ],
       options: {
         chart: {
-          type: 'bar',
+          type: "bar",
           height: 350,
           stacked: true,
-          stackType: '1%'
+          stackType: "1%",
         },
         plotOptions: {
-            bar: {
-              horizontal: false,
-              columnWidth: '30%', // Adjust the bar width here (default is '70%')
-              endingShape: 'rounded' // Make bars with rounded corners
-            },
+          bar: {
+            horizontal: false,
+            columnWidth: "15%", // Adjust the bar width here (default is '70%')
+            endingShape: "rounded", // Make bars with rounded corners
           },
+        },
+        dataLabels: {
+          enabled: false, // Disable all data labels
+        },
         responsive: [
           {
             breakpoint: 180,
