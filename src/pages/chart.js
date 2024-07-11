@@ -1,7 +1,7 @@
 import React from "react";
 import "../pages/chart.css";
 import Bar1 from "./bar1";
-import Bar2 from "./bar2";
+
 
 function Chart() {
   return (
