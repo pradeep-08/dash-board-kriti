@@ -1,23 +1,25 @@
 import React from "react";
 import "../pages/nav.css";
-
+import Dashboard from "./dashbar";
+import Tickets from "./service/tickets";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 function Nav() {
   // State to manage the selected option
-
+ 
   return (
     <>
       <div className="main-nav-bar">
         <div className="menu-button-div">
-          <img
-            width="30"
-            height="30"
-            src="https://img.icons8.com/ios/500/menu--v1.png"
-            alt="menu--v1"
-          />
+          <Dashboard/>
         </div>
 
         <div className="nav-bar-main-content">
-          <div className="nav-button">Dashboard</div>
+        <BrowserRouter>
+      <Routes>
+        <Route path="blogs" element={<Tickets />} />
+      </Routes>
+    </BrowserRouter>
+          <div  className="nav-button">Dashboard</div>
           <div className="nav-button">Service</div>
           <div className="nav-button">Contact</div>
           <div className="nav-button">Help</div>
@@ -25,7 +27,7 @@ function Nav() {
       </div>
       <div className="second-nav-bar">
         <div className="dashboard-child">
-          <span className="dashboard-name">Dashboard</span>
+          <span className="dashboard-name-1">Dashboard</span>
           <div className="user-login-icons">
             <img
               width="48"

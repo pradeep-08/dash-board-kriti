@@ -14,6 +14,7 @@
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   cursor: pointer;
   transition: background-color 0.5s ease;
+  margin-top: 30px;
 }
 .card-container-child:hover {
   box-shadow: rgba(227, 167, 46, 0.858) 0px 3px 10px;

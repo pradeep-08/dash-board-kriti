@@ -1,5 +1,6 @@
 import React from "react";
 import "../pages/card.css";
+
 function Card() {
   return (
     <>
@@ -25,7 +26,7 @@ function Card() {
               src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-check-in-vacation-planning-flaticons-lineal-color-flat-icons.png"
               alt="external-check-in-vacation-planning-flaticons-lineal-color-flat-icons"
             />
-            <span className="count-bar"> + 100 Today</span>
+            <span className="count-bar"> + 130 Today</span>
           </div>
         </div>
         <div className="card-container-child">
