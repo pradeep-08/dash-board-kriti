@@ -1,5 +1,6 @@
 import React from "react";
 import ReactApexChart from "react-apexcharts";
+import "../pages/chart.css";
 
 class Bar1 extends React.Component {
   constructor(props) {
@@ -28,6 +29,9 @@ class Bar1 extends React.Component {
             horizontal: false,
             columnWidth: "15%", // Adjust the bar width here (default is '70%')
             endingShape: "rounded", // Make bars with rounded corners
+            events: {
+              click: this.handleBarClick,
+            },
           },
         },
         dataLabels: {
@@ -61,9 +65,18 @@ class Bar1 extends React.Component {
     };
   }
 
+  // Event handler for bar click
+  handleBarClick = (event, chartContext, config) => {
+    // Example link URL
+    const link = "https://example.com";
+
+    // Open link in a new tab
+    window.open(link, "_blank");
+  };
+
   render() {
     return (
-      <div>
+      <div className="functional-div">
         <div id="chart">
           <ReactApexChart
             options={this.state.options}

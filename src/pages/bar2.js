@@ -1,67 +1,54 @@
-import React, { useEffect } from "react";
-import ApexCharts from "apexcharts";
+import React from "react";
+import ReactApexChart from "react-apexcharts";
 
-const Bar2 = () => {
-  useEffect(() => {
-    const options = {
-      series: [19, 67, 90],
-      chart: {
-        height: 250,
-        type: "radialBar",
-      },
-      plotOptions: {
-        radialBar: {
-          offsetY: 0,
-          startAngle: -90,
-          endAngle: 90,
-          hollow: {
-            margin: 150,
-            size: "60%",
-            background: "#1B56ED",
-          },
-          dataLabels: {
-            name: {
-              show: false,
-            },
-            value: {
-              show: false,
-            },
-          },
-          barWidth: 35, // Adjust the bar width here
-          barLabels: {
-            enabled: true,
-            useSeriesColors: true,
-            margin: 18,
-            fontSize: "10px",
-            formatter: function (seriesName, opts) {
-              return seriesName;
-            },
-          },
+class ApexChart extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      series: [78, 55, 67],
+      options: {
+        chart: {
+          height: 500, // Increase the height of the chart
+          type: 'radialBar',
+          offsetY: -10, // Adjusts vertical position to center
         },
-      },
-      colors: ["#EF6416", "#804B2D", "#1B56ED"],
-      responsive: [
-        {
-          breakpoint: 100,
-          options: {
-            legend: {
-              show: false,
+        plotOptions: {
+          radialBar: {
+            startAngle: -90, // Starting angle to make it semi-circle
+            endAngle: 90,   // Ending angle to make it semi-circle
+            hollow: {
+              margin: 0,
+              size: "40%", // Size of the inner circle
             },
-          },
+            dataLabels: {
+              name: {
+                show: false,
+              },
+              value: {
+                show: true,
+                offsetY: 10,
+                fontSize: '22px',
+              }
+            }
+          }
         },
-      ],
+        colors: [  "#EF6416", "#804B2D","#1B56ED"], // Customize bar colors here
+        labels: ['Location', 'location2', 'Location3'],
+      },
     };
+  }
 
-    const chart = new ApexCharts(document.getElementById("chart"), options);
-    chart.render();
+  render() {
+    return (
+      <div>
+        <div id="chart">
+          <ReactApexChart options={this.state.options} series={this.state.series} type="radialBar" height={350} />
+        </div>
+        <div id="html-dist"></div>
+      </div>
+    );
+  }
+}
 
-    // Clean up function
-    return () => {
-      chart.destroy();
-    };
-  }, []); // Empty dependency array to run effect only once
-
-  return <div id="chart"></div>;
-};
-
-export default Bar2;
+export default ApexChart;

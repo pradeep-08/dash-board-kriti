@@ -1,6 +1,6 @@
 .master-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -8,27 +8,36 @@
 
 .main-div-chart-layout {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   background-color: #f6f5fa;
   height: 550px;
-  width: 80%;
+  width: 77%;
   gap: 10px;
 }
 
 .main-chart-container {
     display: flex;
     align-items: center;
-    justify-content: center;
-  height: 400px;
-  width: 70%;
+  justify-content: center;
+  height: 420px;
+  width: 60%;
   border-radius: 15px;
   background-color: #ffffff;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .main-chart-container-2 {
-  height: 500px;
-  width: 50%;
-  background-color: rgb(101, 18, 18);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 420px;
+  width: 30%;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 15px;
+}
+
+.bar-container{
+ border-bottom: solid 1px;
 }
