@@ -58,7 +58,7 @@ class Bar1 extends React.Component {
         legend: {
           position: "right",
           offsetX: 0,
-          offsetY: 30,
+          offsetY: 0,
         },
         colors: ["#A263F7", "#FF8743"], // Customize bar colors here
       },
@@ -77,13 +77,14 @@ class Bar1 extends React.Component {
   render() {
     return (
       <div className="functional-div">
+        <div className="overview">Overview</div>
         <div id="chart">
           <ReactApexChart
             options={this.state.options}
             series={this.state.series}
             type="bar"
             height={300}
-            width={700}
+            width={800}
           />
         </div>
         <div id="html-dist"></div>
