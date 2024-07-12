@@ -1,0 +1,15 @@
+.card-container {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #f6f5fa;
+  height: 200px;
+  width: 100%;
+}
+
+.card-container-child {
+    background-color: #FFFFFF;
+ height: 120px;
+ width: 250px;
+ border-radius: 10px;
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

@@ -6,7 +6,7 @@ class ApexChart extends React.Component {
     super(props);
 
     this.state = {
-      series: [78, 55, 67],
+      series: [78, 55, 17],
       options: {
         chart: {
           height: 500, // Increase the height of the chart
