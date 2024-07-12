@@ -7,9 +7,40 @@
 }
 
 .card-container-child {
-    background-color: #FFFFFF;
- height: 120px;
- width: 250px;
- border-radius: 10px;
- box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #ffffff;
+  height: 130px;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+.card-container-child:hover {
+  box-shadow: rgba(227, 167, 46, 0.858) 0px 3px 10px;
+}
+
+.arrow-div {
+  display: flex;
+  justify-content: end;
+  margin: 5px;
+}
+
+.check-status {
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  justify-content: left;
+  padding-left: 15px;
+}
+.count-bar {
+  font-size: 12px;
+  font-weight: bold;
+}
+.count-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px;
+  justify-content: start;
+  padding: 5px;
 }
