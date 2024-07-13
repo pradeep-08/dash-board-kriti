@@ -7,7 +7,7 @@ import React from 'react'
 function tickets() {
   
   return (
-    <div>yet</div>
+    <div>to be dev</div>
   );
 }
 
