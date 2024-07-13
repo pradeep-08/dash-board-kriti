@@ -4,7 +4,9 @@ import Dashboard from "./dashbar";
 
 function Nav() {
   // State to manage the selected option
-
+  const openInNewTab = (url) => { 
+    window.open(url, '_blank', 'noreferrer');
+  }; 
   return (
     <>
       <div className="main-nav-bar">
@@ -14,7 +16,7 @@ function Nav() {
 
         <div className="nav-bar-main-content">
           <div className="nav-button">Dashboard</div>
-          <div className="nav-button">Tickets</div>
+          <div className="nav-button" onClick={() => openInNewTab('/tickets')}>Tickets</div>
           <div className="nav-button">Contact</div>
           <div className="nav-button">Help</div>
         </div>
