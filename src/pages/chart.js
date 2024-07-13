@@ -31,6 +31,7 @@ function Chart() {
           </div>
         </div>
       </div>
+      
     </>
   );
 }

@@ -1,21 +1,21 @@
-import './App.css';
-import Card from './pages/card';
-import Chart from './pages/chart';
-import Nav from  './pages/nav'
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "./App.css";
+import Nav from "./pages/nav";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Tickets from "./pages/service/tickets";
+import Dashboard from "./pages/dashboard/dashboard";
 
 function App() {
   return (
     <div className="App">
-     <Nav />
-     <Router>
-      <Routes>
-        <Route path="/tickets" element={<Tickets />}></Route>
-      </Routes>
-    </Router>
-     <Chart/>
-     <Card/>
+      <Nav />
+      <div className="content">
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Dashboard />} />
+            <Route path="/tickets" element={<Tickets />} />
+          </Routes>
+        </BrowserRouter>
+      </div>
     </div>
   );
 }

@@ -1,10 +1,14 @@
 import React from 'react'
 
+
+
+
+
 function tickets() {
   
   return (
-    <div>tickets</div>
-  )
+    <div>yet</div>
+  );
 }
 
 export default tickets
