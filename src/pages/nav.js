@@ -1,30 +1,25 @@
 import React from "react";
 import "../pages/nav.css";
 import Dashboard from "./dashbar";
-import Tickets from "./service/tickets";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 function Nav() {
   // State to manage the selected option
- 
+
   return (
     <>
       <div className="main-nav-bar">
         <div className="menu-button-div">
-          <Dashboard/>
+          <Dashboard />
         </div>
 
         <div className="nav-bar-main-content">
-        <BrowserRouter>
-      <Routes>
-        <Route path="blogs" element={<Tickets />} />
-      </Routes>
-    </BrowserRouter>
-          <div  className="nav-button">Dashboard</div>
-          <div className="nav-button">Service</div>
+          <div className="nav-button">Dashboard</div>
+          <div className="nav-button">Tickets</div>
           <div className="nav-button">Contact</div>
           <div className="nav-button">Help</div>
         </div>
       </div>
+
       <div className="second-nav-bar">
         <div className="dashboard-child">
           <span className="dashboard-name-1">Dashboard</span>
