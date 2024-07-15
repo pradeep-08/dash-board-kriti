@@ -6,8 +6,8 @@ function Dashboard() {
   return (
     <>
       <div>
-         <Chart />
-      {/*  <Card /> */}
+        <Chart />
+        <Card />
       </div>
     </>
   );
