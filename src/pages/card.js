@@ -21,8 +21,8 @@ function Card() {
 
           <div className="count-container">
             <img
-              width="50"
-              height="50"
+              width="45"
+              height="45"
               src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-check-in-vacation-planning-flaticons-lineal-color-flat-icons.png"
               alt="external-check-in-vacation-planning-flaticons-lineal-color-flat-icons"
             />
@@ -44,8 +44,8 @@ function Card() {
 
           <div className="count-container">
             <img
-              width="50"
-              height="50"
+              width="45"
+              height="45"
               src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-check-out-vacation-planning-flaticons-lineal-color-flat-icons.png"
               alt="external-check-in-vacation-planning-flaticons-lineal-color-flat-icons"
             />
@@ -67,8 +67,8 @@ function Card() {
 
           <div className="count-container">
             <img
-              width="50"
-              height="50"
+              width="45"
+              height="45"
               src="https://img.icons8.com/color-glass/48/approval--v1.png"
               alt="external-check-in-vacation-planning-flaticons-lineal-color-flat-icons"
             />

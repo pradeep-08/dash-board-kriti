@@ -49,8 +49,6 @@ class ApexChart extends React.Component {
             options={this.state.options}
             series={this.state.series}
             type="radialBar"
-            height={400}
-            width={450}
           />
         </div>
         <div id="html-dist"></div>

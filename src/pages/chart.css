@@ -42,7 +42,7 @@
 .overview {
   font-size: 20px;
   font-weight: bold;
-  height: 70px;
+  height: 50px;
 }
 .semi-bar-details {
   display: flex;
@@ -65,12 +65,30 @@
   font-weight: bold;
   width: 100%;
 }
+#chart {
+  width: 620px;
+  /* Ensure the chart div takes full width of its parent */
+  max-width: 900px; /* Optional: Set max-width to limit chart size on larger screens */
+  margin: 10 auto; /* Center align if necessary */
+}
 
+#chart-1 {
+  width: 400px;
+  /* Ensure the chart div takes full width of its parent */
+  max-width: 900px; /* Optional: Set max-width to limit chart size on larger screens */
+  margin: 10 auto; /* Center align if necessary */
+}
 @media screen and (max-width: 768px) and (min-width: 320px) {
   #chart {
-    width: 90%; /* Ensure the chart div takes full width of its parent */
-    max-width: 600px; /* Optional: Set max-width to limit chart size on larger screens */
-    margin: 0 auto; /* Center align if necessary */
+    width: 150%; /* Ensure the chart div takes full width of its parent */
+    max-width: 420px; /* Optional: Set max-width to limit chart size on larger screens */
+    margin: 10 auto; /* Center align if necessary */
+  }
+  #chart-1 {
+    width: 800px;
+    /* Ensure the chart div takes full width of its parent */
+    max-width: 420px; /* Optional: Set max-width to limit chart size on larger screens */
+    margin: 10 auto; /* Center align if necessary */
   }
 
   .main-chart-container {
@@ -82,5 +100,34 @@
     border-radius: 15px;
     background-color: #ffffff;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .main-div-chart-layout {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    background-color: #f6f5fa;
+    height: 400px;
+    width: 100%;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    place-items: center;
+  }
+
+  .master-container {
+    width: 80%;
+  }
+
+  .main-chart-container-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 480px;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 15px;
+    gap: 10px;
   }
 }

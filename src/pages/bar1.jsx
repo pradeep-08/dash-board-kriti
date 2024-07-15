@@ -83,8 +83,6 @@ class Bar1 extends React.Component {
             options={this.state.options}
             series={this.state.series}
             type="bar"
-            height={300}
-            width={800}
           />
         </div>
         <div id="html-dist"></div>
