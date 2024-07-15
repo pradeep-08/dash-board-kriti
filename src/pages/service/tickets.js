@@ -271,7 +271,6 @@ function tickets() {
           </div>
           <div className="block-name">Block 3</div>
         </div>
-
       </div>
     </div>
   );
