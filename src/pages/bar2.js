@@ -43,7 +43,7 @@ class ApexChart extends React.Component {
   render() {
     return (
       <div>
-        <div id="chart">
+        <div id="chart-1">
           <div className="overview">Summary</div>
           <ReactApexChart
             options={this.state.options}
