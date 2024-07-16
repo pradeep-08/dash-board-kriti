@@ -26,7 +26,8 @@ function tickets() {
       </div>
       <div className="master-main-page-continer">
         <div className="main-page-container">
-          <div className="main-page-1">
+        <div className="main-page-container-child">
+        <div className="main-page-1">
             <div className="child-main-page">
               <div className="color-tittle">
                 <div className="color-box-1"></div>
@@ -46,6 +47,8 @@ function tickets() {
               </div>
             </div>
           </div>
+        </div>
+         
           <div className="main-page-2">
             <div className="progressing-data-bar-main-container">
               <div className="bar-title-name-div">

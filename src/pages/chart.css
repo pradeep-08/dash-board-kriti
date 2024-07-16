@@ -68,7 +68,7 @@
 #chart {
   width: 620px;
   /* Ensure the chart div takes full width of its parent */
-  max-width: 900px; /* Optional: Set max-width to limit chart size on larger screens */
+  max-width: 1440px; /* Optional: Set max-width to limit chart size on larger screens */
   margin: 10 auto; /* Center align if necessary */
 }
 

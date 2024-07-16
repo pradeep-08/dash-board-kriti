@@ -16,6 +16,7 @@
   width: 480px;
   border-radius: 1px;
   gap: 5px;
+
 }
 .main-page-1 {
   background-color: #f6f5fa;
@@ -23,13 +24,14 @@
   padding-top: 10px;
   padding-right: 15px;
   padding-bottom: 15px;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  border-radius: 1px;
-  place-items: start;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
 }
+
 .child-main-page {
-  width: 100%;
+  width: fit-content;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   place-content: end;
