@@ -7,7 +7,7 @@ import Bar2 from "./bar2";
 function Chart() {
   return (
     <>
-      <div>
+      <div className="chart-master-container">
         <div className="second-nav-bar">
           <div className="dashboard-child">
             <span className="dashboard-name-1">Dashboard</span>

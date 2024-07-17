@@ -1,16 +1,20 @@
 .card-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   background-color: #f6f5fa;
   height: 200px;
   width: 100%;
 }
-
+.check-status-container{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
 .card-container-child {
   background-color: #ffffff;
-  height: 150px;
-  width: 320px;
+  height: 200px;
+  width: 400px;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   cursor: pointer;
@@ -20,14 +24,17 @@
 .card-container-child:hover {
   box-shadow: rgba(227, 167, 46, 0.858) 0px 3px 10px;
 }
-
+.card-image{
+  height: 70px;
+  width: 70px;
+}
 .arrow-div {
   display: flex;
   justify-content: end;
   margin: 5px;
 }
 .check-status {
-  font-size: 18px;
+  font-size: 25px;
   font-weight: bold;
   display: flex;
   justify-content: left;
@@ -70,5 +77,9 @@
     margin: 10px;
     justify-content: start;
     padding: 0px;
+  }
+  .card-image{
+    height: 40px;
+    width: 40px;
   }
 }

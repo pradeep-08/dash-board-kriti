@@ -6,8 +6,9 @@ function Dashboard() {
   return (
     <>
       <div className="dashboard-container">
-        <Chart />
-        <Card/>
+      <div className="dashboard-container-child"> <Chart />
+      <Card/></div>
+       
       </div>
       
     </>

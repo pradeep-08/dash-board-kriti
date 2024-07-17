@@ -14,21 +14,21 @@ function Card() {
               alt="drag-up-right-arrow"
             />
           </div>
-
-          <div className="check-status">
-            <div>Check-IN</div>
-          </div>
-
-          <div className="count-container">
-            <img
-              width="45"
-              height="45"
-              src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-check-in-vacation-planning-flaticons-lineal-color-flat-icons.png"
-              alt="external-check-in-vacation-planning-flaticons-lineal-color-flat-icons"
-            />
-            <span className="count-bar"> + 130 Today</span>
+          <div className="check-status-container">
+            <div className="check-status">
+              <div>Check-IN</div>
+            </div>
+            <div className="count-container">
+              <img
+                className="card-image"
+                src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-check-in-vacation-planning-flaticons-lineal-color-flat-icons.png"
+                alt="external-check-in-vacation-planning-flaticons-lineal-color-flat-icons"
+              />
+              <span className="count-bar"> + 130 Today</span>
+            </div>
           </div>
         </div>
+
         <div className="card-container-child">
           <div className="arrow-div">
             <img
@@ -44,8 +44,7 @@ function Card() {
 
           <div className="count-container">
             <img
-              width="45"
-              height="45"
+              className="card-image"
               src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-check-out-vacation-planning-flaticons-lineal-color-flat-icons.png"
               alt="external-check-in-vacation-planning-flaticons-lineal-color-flat-icons"
             />
@@ -67,8 +66,7 @@ function Card() {
 
           <div className="count-container">
             <img
-              width="45"
-              height="45"
+              className="card-image"
               src="https://img.icons8.com/color-glass/48/approval--v1.png"
               alt="external-check-in-vacation-planning-flaticons-lineal-color-flat-icons"
             />
