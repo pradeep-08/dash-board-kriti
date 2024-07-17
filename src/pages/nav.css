@@ -14,7 +14,7 @@ body {
 .nav-bar-main-content {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   background-color: #ebebeb;
   width: 100%;
@@ -38,6 +38,8 @@ body {
   font-size: 16px;
   font-weight: bold;
   transition: background-color 0.5s ease;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .nav-button:hover {
@@ -100,6 +102,8 @@ body {
     font-size: 12px;
     font-weight: bold;
     transition: background-color 0.5s ease;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 
   .nav-bar-main-content {

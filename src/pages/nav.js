@@ -11,9 +11,8 @@ function Nav() {
     <>
       <div className="main-nav-bar">
         <div className="menu-button-div">
-          <Dashboard />
+        <Dashboard />
         </div>
-
         <div className="nav-bar-main-content">
           <div className="nav-button"  onClick={() => openInNewTab("/")}>Dashboard</div>
           <div className="nav-button" onClick={() => openInNewTab("/tickets")}>
