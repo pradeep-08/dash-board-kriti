@@ -7,7 +7,7 @@ function tickets() {
   return (
     <div className="ticket-master-container">
       <div className="second-nav-bar-1">
-        <div className="dashboard-child">
+        <div className="dashboard-child-1">
           <span className="dashboard-name-1">Tickets</span>
           <div className="user-login-icons">
             <img

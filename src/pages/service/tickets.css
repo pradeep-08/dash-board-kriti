@@ -13,6 +13,20 @@
   place-items: center;
 }
 
+.second-nav-bar-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.dashboard-child-1{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 88%;
+  display: flex;
+  justify-content: space-between;
+}
+
 .main-page-container {
   display: grid;
   grid-template-rows: repeat(3, 1fr);
