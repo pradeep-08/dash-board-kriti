@@ -1,10 +1,12 @@
 import React from "react";
 import "./tickets.css";
 
+
+
 function tickets() {
   return (
-    <div>
-      <div className="second-nav-bar">
+    <div className="ticket-master-container">
+      <div className="second-nav-bar-1">
         <div className="dashboard-child">
           <span className="dashboard-name-1">Tickets</span>
           <div className="user-login-icons">
@@ -112,24 +114,7 @@ function tickets() {
         </div>
         <div className="main-page-container">
           <div className="main-page-1">
-            <div className="child-main-page">
-              <div className="color-tittle">
-                <div className="color-box-1"></div>
-                <span className="color-name">Not occupied</span>
-              </div>
-              <div className="color-tittle">
-                <div className="color-box-2"></div>
-                <span className="color-name">Completed</span>
-              </div>
-              <div className="color-tittle">
-                <div className="color-box-3"></div>
-                <span className="color-name">Occupied</span>
-              </div>
-              <div className="color-tittle">
-                <div className="color-box-4"></div>
-                <span className="color-name">In-progress</span>
-              </div>
-            </div>
+           
           </div>
           <div className="main-page-2">
             <div className="progressing-data-bar-main-container">
@@ -194,24 +179,6 @@ function tickets() {
         </div>
         <div className="main-page-container">
           <div className="main-page-1">
-            <div className="child-main-page">
-              <div className="color-tittle">
-                <div className="color-box-1"></div>
-                <span className="color-name">Not occupied</span>
-              </div>
-              <div className="color-tittle">
-                <div className="color-box-2"></div>
-                <span className="color-name">Completed</span>
-              </div>
-              <div className="color-tittle">
-                <div className="color-box-3"></div>
-                <span className="color-name">Occupied</span>
-              </div>
-              <div className="color-tittle">
-                <div className="color-box-4"></div>
-                <span className="color-name">In-progress</span>
-              </div>
-            </div>
           </div>
           <div className="main-page-2">
             <div className="progressing-data-bar-main-container">

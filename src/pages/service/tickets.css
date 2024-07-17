@@ -1,7 +1,12 @@
 .sub-title {
   color: red;
 }
-
+.ticket-master-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+}
 .master-main-page-continer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -29,7 +34,10 @@
   justify-content: end;
   align-items: center;
 }
-
+.second-nav-bar-1{
+  display: flex;
+  width: 98%;
+}
 .child-main-page {
   width: fit-content;
   display: grid;
