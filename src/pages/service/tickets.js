@@ -9,27 +9,7 @@ function tickets() {
       <div className="second-nav-bar-1">
         <div className="dashboard-child-1">
           <span className="dashboard-name-1">Tickets</span>
-          <div className="user-login-icons">
-            <img
-              width="48"
-              height="48"
-              src="https://img.icons8.com/color/48/name--v1.png"
-              alt="name--v1"
-            />
-            <span>Demo-user</span>
-            <img
-              width="20"
-              height="20"
-              src="https://img.icons8.com/ios/50/exit--v1.png"
-              alt="exit--v1"
-            />
-          </div>
-        </div>
-      </div>
-      <div className="master-main-page-continer">
-        <div className="main-page-container">
-        <div className="main-page-container-child">
-        <div className="main-page-1">
+          <div className="main-page-1">
             <div className="child-main-page">
               <div className="color-tittle">
                 <div className="color-box-1"></div>
@@ -50,6 +30,10 @@ function tickets() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="master-main-page-continer">
+        <div className="main-page-container">
+
          
           <div className="main-page-2">
             <div className="progressing-data-bar-main-container">
@@ -113,9 +97,7 @@ function tickets() {
           <div className="block-name">Block 1</div>
         </div>
         <div className="main-page-container">
-          <div className="main-page-1">
-           
-          </div>
+
           <div className="main-page-2">
             <div className="progressing-data-bar-main-container">
               <div className="bar-title-name-div">
@@ -178,8 +160,7 @@ function tickets() {
           <div className="block-name">Block 2</div>
         </div>
         <div className="main-page-container">
-          <div className="main-page-1">
-          </div>
+
           <div className="main-page-2">
             <div className="progressing-data-bar-main-container">
               <div className="bar-title-name-div">

@@ -8,9 +8,11 @@ function Dashboard() {
       <div className="dashboard-container">
       <div className="dashboard-container-child"> <Chart />
       <Card/></div>
-       
-      </div>
       
+      </div>
+      <p class="cp-text">
+    © Copyright 2015 Company Name. All rights reserved.
+</p>
     </>
   );
 }
