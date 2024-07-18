@@ -1,5 +1,6 @@
 import React from "react";
 import "./tickets.css";
+import Footer from "./footer";
 
 
 
@@ -223,8 +224,9 @@ function tickets() {
           <div className="block-name">Block 3</div>
         </div>
       </div>
+      <Footer />
     </div>
-  );
+      );
 }
 
 export default tickets;
