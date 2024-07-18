@@ -13,7 +13,7 @@ justify-content: space-between;
 }
 .card-container-child {
   background-color: #ffffff;
-  height: 200px;
+  height: 180px;
   width: 400px;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
