@@ -38,17 +38,17 @@ function Chart() {
                 <Bar2 />
                 
                 <div className="semi-bar-details">
-                  <div>
-                    <div className="b1">
-                      <div className="box-1"></div>Completed
+                  
+                    <div className="b1"><div>Completed</div>
+                      <div className="box-1"></div>
                     </div>
-                    <div className="b2">
-                      <div className="box-1"></div>In-process
+                    <div className="b2"><div>In-process</div>
+                      <div className="box-2"></div>
                     </div>
-                    <div className="b3">
-                      <div className="box-1"></div>Not-yet
+                    <div className="b3"><div>Not-yet</div>
+                      <div className="box-3"></div>
                     </div>
-                  </div>
+                  
                 </div>
               </div>
             </div>

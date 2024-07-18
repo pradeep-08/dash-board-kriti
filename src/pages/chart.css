@@ -38,7 +38,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 480px;
+  height: 490px;
   width: 88%;
   border-radius: 15px;
   background-color: #ffffff;
@@ -49,7 +49,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 480px;
+  height: 490px;
   width: 30%;
   background-color: #ffffff;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -65,26 +65,49 @@
 .semi-bar-details {
   display: flex;
   justify-content: center;
-  width: 90%;
+  flex-direction: column;
+  width: 100%;
+  row-gap: 10px;
 }
 .box-1 {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   height: 15px;
   width: 15px;
+  background-color: #EF6416;
+}
+.box-2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 15px;
+  width: 15px;
+  background-color: #804B2D;
+}
+
+.box-3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 15px;
+  width: 15px;
+  background-color: #1B56ED;
 }
 
 .b1,
 .b2,
 .b3 {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+  width: 50%;
   font-weight: bold;
-  width: 100%;
+  padding-left: 30px;
+
 }
 #chart {
-  width: 620px;
+  width: 650px;
   /* Ensure the chart div takes full width of its parent */
   max-width: 1440px; /* Optional: Set max-width to limit chart size on larger screens */
   margin: 10 auto; /* Center align if necessary */

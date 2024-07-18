@@ -19,7 +19,7 @@ class ApexChart extends React.Component {
             startAngle: -90, // Starting angle to make it semi-circle
             endAngle: 90, // Ending angle to make it semi-circle
             hollow: {
-              margin: 90,
+              margin: 40,
               size: "60%", // Size of the inner circle
             },
             dataLabels: {
