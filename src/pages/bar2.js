@@ -44,7 +44,7 @@ class ApexChart extends React.Component {
     return (
       <div>
         <div id="chart-1">
-          <div className="overview">Summary</div>
+          <div className="overview-sum">Summary</div>
           <ReactApexChart
             options={this.state.options}
             series={this.state.series}

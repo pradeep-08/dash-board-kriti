@@ -27,7 +27,7 @@ class Bar1 extends React.Component {
         plotOptions: {
           bar: {
             horizontal: false,
-            columnWidth: "15%", // Adjust the bar width here (default is '70%')
+            columnWidth: "20%", // Adjust the bar width here (default is '70%')
             endingShape: "rounded", // Make bars with rounded corners
             events: {
               click: this.handleBarClick,
@@ -37,18 +37,7 @@ class Bar1 extends React.Component {
         dataLabels: {
           enabled: false, // Disable all data labels
         },
-        responsive: [
-          {
-            breakpoint: 180,
-            options: {
-              legend: {
-                position: "bottom",
-                offsetX: -10,
-                offsetY: 10,
-              },
-            },
-          },
-        ],
+     
         xaxis: {
           categories: ["B1", "B2", "B3", "B4", "B5", "B6", "B7", "B8"],
         },
@@ -56,7 +45,7 @@ class Bar1 extends React.Component {
           opacity: 10,
         },
         legend: {
-          position: "right",
+          position: "top",
           offsetX: 0,
           offsetY: 0,
         },

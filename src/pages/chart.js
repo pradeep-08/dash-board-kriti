@@ -35,6 +35,7 @@ function Chart() {
             </div>
             <div className="main-chart-container-2">
               <div className="bar-container">
+             
                 <Bar2 />
                 
                 <div className="semi-bar-details">

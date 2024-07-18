@@ -61,6 +61,13 @@
   font-size: 20px;
   font-weight: bold;
   height: 50px;
+  float: left;
+}
+.overview-sum{
+  font-size: 20px;
+  font-weight: bold;
+  height: 50px;
+  float: top;
 }
 .semi-bar-details {
   display: flex;
