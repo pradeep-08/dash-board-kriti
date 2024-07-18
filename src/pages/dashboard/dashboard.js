@@ -11,7 +11,7 @@ function Dashboard() {
       
       </div>
       <p class="cp-text">
-    © Copyright 2015 Company Name. All rights reserved.
+     Copyright © 2024 KritiLabs Technologies. All rights reserved.
 </p>
     </>
   );
