@@ -11,7 +11,7 @@ function Footer() {
           <div class="copyright-text">
             <p>© 2024
               <span> Copyright</span>. All rights reserved. Created by  
-              <a href='https://www.kritilabs.com/' target="_blank"> KritiLabs Technologies</a>
+              <a href='https://www.kritilabs.com/' target="_blank"  rel="noreferrer" > KritiLabs Technologies</a>
             </p>
           </div>
         </div>
