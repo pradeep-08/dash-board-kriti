@@ -1,6 +1,7 @@
 .dashboard-container {
   width: 95%;
   padding-left: 90px;
+  height: max-content;
 }
 
 .dashboard-container-child {

@@ -134,7 +134,7 @@
     margin: 10 auto; /* Center align if necessary */
   }
   #chart-1 {
-    width: 800px;
+    width: 150%px;
     /* Ensure the chart div takes full width of its parent */
     max-width: 420px; /* Optional: Set max-width to limit chart size on larger screens */
     margin: 10 auto; /* Center align if necessary */
