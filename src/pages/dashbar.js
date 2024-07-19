@@ -68,21 +68,6 @@ function Dashbar() {
             </div>
           </div>
         </div>
-
-        {/* <div className="profile-div">
-                      
-                      
-                    
-                      <div className='profile-info'>
-                      <div>Evano</div>
-                      <div style={{color:"#838E9C"}}>Project Manager</div>
-                      </div>
-                      <img width="10" height="10" src="https://img.icons8.com/metro/26/EBEBEB/sort-down.png" alt="sort-down"/>
-              </div> */}
-        {/* <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Clients</a>
-        <a href="#">Contact</a> */}
       </div>
       <div>
         <span
