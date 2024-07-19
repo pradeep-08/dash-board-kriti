@@ -10,8 +10,8 @@ function Footer() {
         <div class="col-md-12">
           <div class="copyright-text">
             <p>© 2024
-              <a >Copyright</a>. All rights reserved. Created by
-              <a > KritiLabs Technologies</a>
+              <span> Copyright</span>. All rights reserved. Created by
+              <a href='https://www.kritilabs.com/  _blank'> KritiLabs Technologies</a>
             </p>
           </div>
         </div>
